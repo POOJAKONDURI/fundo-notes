@@ -89,11 +89,11 @@ WSGI_APPLICATION = "fundoonote.wsgi.application"
 DATABASES = {
      "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": 'django_db',#os.environ.get('DATABASE_NAME'),
-        "USER": "rj_database_user",#os.environ.get('DATABASE_USER'),
-        "PASSWORD": "RaHuL637@j",#os.environ.get('DATABASE_PASSWORD'),
-        "HOST" : "172.31.85.29",
-        "PORT" : "5432",
+        "NAME": 'fundo_db',#os.environ.get('DATABASE_NAME'),
+        "USER": 'pooja',#os.environ.get('DATABASE_USER'),
+        "PASSWORD": 'pooja',#os.environ.get('DATABASE_PASSWORD'),
+        "HOST" : '172.31.5.219',
+        "PORT" : '5432',
     }
 }
 
